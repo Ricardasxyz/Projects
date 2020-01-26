@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Projektai/cat/static/css/main.93db481c.chunk.css",
+    "main.js": "/Projektai/cat/static/js/main.e6257e6a.chunk.js",
+    "main.js.map": "/Projektai/cat/static/js/main.e6257e6a.chunk.js.map",
+    "runtime-main.js": "/Projektai/cat/static/js/runtime-main.190c4f90.js",
+    "runtime-main.js.map": "/Projektai/cat/static/js/runtime-main.190c4f90.js.map",
+    "static/css/2.299a5230.chunk.css": "/Projektai/cat/static/css/2.299a5230.chunk.css",
+    "static/js/2.fb5b6c84.chunk.js": "/Projektai/cat/static/js/2.fb5b6c84.chunk.js",
+    "static/js/2.fb5b6c84.chunk.js.map": "/Projektai/cat/static/js/2.fb5b6c84.chunk.js.map",
+    "index.html": "/Projektai/cat/index.html",
+    "precache-manifest.cb1cb95b25083f6199fcb4dccc7c2931.js": "/Projektai/cat/precache-manifest.cb1cb95b25083f6199fcb4dccc7c2931.js",
+    "service-worker.js": "/Projektai/cat/service-worker.js",
+    "static/css/2.299a5230.chunk.css.map": "/Projektai/cat/static/css/2.299a5230.chunk.css.map",
+    "static/css/main.93db481c.chunk.css.map": "/Projektai/cat/static/css/main.93db481c.chunk.css.map",
+    "static/js/2.fb5b6c84.chunk.js.LICENSE": "/Projektai/cat/static/js/2.fb5b6c84.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.190c4f90.js",
+    "static/css/2.299a5230.chunk.css",
+    "static/js/2.fb5b6c84.chunk.js",
+    "static/css/main.93db481c.chunk.css",
+    "static/js/main.e6257e6a.chunk.js"
+  ]
+}
