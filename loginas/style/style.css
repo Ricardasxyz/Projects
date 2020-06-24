@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    font-family: 'Freckle Face', cursive;
+    font-size: 2em;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/user-login.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    color: White;
+}
+
+label {
+    color: black;
+}
+
+.form-group {
+    width: 450px;
+    margin: 0 auto;
+}
+
+.form-group+p {
+    color: black;
+}
+
+p a:hover {
+    color: white;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.form-group .loginBtn {
+    background-color: #ff6600;
+    color: white;
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.form-group .loginBtn:hover {
+    transition: 0.3s;
+    background-color: #df382f;
+}
