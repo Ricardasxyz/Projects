@@ -1,0 +1,254 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  color: #222;
+}
+
+h1{
+  text-shadow: 1px 1px 15px #000;
+  text-transform: uppercase;
+}
+h3{
+  text-shadow: 1px 1px 10px #000;
+} 
+
+.flex-form {
+  display: flex;
+  justify-content: center;
+}
+.flex-form>* {
+  width: 500px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: Center;
+  justify-content: space-around;
+}
+
+/* navigation */
+#logo-img {
+  width: 50px;
+  height: 50px;
+}
+
+.navbar {
+  padding: .8rem;
+}
+
+.navbar-nav li {
+  padding-right: 20px;
+}
+
+.nav-link {
+  font-size: 1.5em;
+}
+
+/* hero */
+hr {
+  background-color: black;
+}
+
+.hero {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('../images/heroImg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+} 
+
+.newsletter .jumbotron {
+  margin-bottom: 0px;
+  background-color: black;
+  color: white;
+}
+
+.newsletter button {
+  color: white;
+}
+
+.newsletter button:hover {
+  background: white;
+  color: black;
+}
+
+/* story */
+.story a:hover {
+  background: white;
+  border: 2px solid black;
+  color: black;
+}
+
+.storyHr {
+  border-top: 2px solid #b4b4b4;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+
+/* responsive image */
+
+.parallax {
+  background-image: url("../images/fixedImage.jpg");
+  height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* team */
+.card {
+  border: 1px solid black;
+}
+
+.card-body a {
+  background: white;
+  border: 2px solid black;
+  color: black;
+}
+
+.card img {
+  max-height: 500px;
+}
+
+.quote {
+  background: black;
+  color: white;
+}
+
+/* footer */
+
+.footer {
+  background: black;
+}
+
+.credits {
+  color: white;
+}
+
+/* contact */
+.flex-form {
+  height: 250px;
+}
+
+.inputs>* {
+  width: 400px;
+  padding: 10px;
+  border: 1px solid grey;
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-form textarea {
+  border: 2px thin grey;
+  outline: none;
+  padding: 10px;
+}
+
+.padding {
+  padding-bottom: 2rem;
+}
+
+[class*="col-"] {
+  padding: 1rem;
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+  .flex-form{
+    flex-direction: column;
+    align-items:center;
+  }
+  .flex-form >*{
+    padding:2%;
+  }
+  .flex-form {
+    height:500px;
+  }
+  .flex-form textarea{
+    height:500px;
+  }
+  .inputs input{
+    margin:10px;
+  }
+ }
+
+ @media (min-width: 768px) and (max-width: 991.98px) { 
+  .flex-form{
+    flex-direction: column;
+    align-items:center;
+  }
+  .flex-form >*{
+    padding:2%;
+  }
+  .flex-form {
+    height:500px;
+  }
+  .flex-form textarea{
+    height:500px;
+  }
+  .inputs input{
+    margin:10px;
+  }
+ }
+
+ @media (min-width: 576px) and (max-width: 767.98px) { 
+  .flex-form{
+    flex-direction: column;
+    align-items:center;
+  }
+  .flex-form >*{
+    padding:2%;
+  }
+  .flex-form {
+    height:500px;
+  }
+  .flex-form textarea{
+    height:500px;
+  }
+  .inputs input{
+    margin:10px;
+  }
+ }
+
+
+ @media (max-width: 575.98px) { 
+  .formFlex{
+    display:flex;
+    justify-content: center;
+   }
+  .flex-form{
+    flex-direction: column;
+    align-items:center;
+  
+  }
+  .flex-form >*{
+    padding:2%;
+  }
+  .flex-form {
+    height:500px;
+    width:300px;
+  }
+  .flex-form textarea{
+    height:500px;
+    max-width:300px;
+  }
+  .inputs input{
+    margin:10px;
+   width:300px;
+  }
+  .inputs{
+    width:300px;
+  }
+ }
+  
+
